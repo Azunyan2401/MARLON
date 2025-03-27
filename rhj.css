@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6vh;
+    background-color: rgb(255, 140, 0, 0.5);
+    font-family: "Libre Baskerville", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Navigation*/
+nav {
+    background-color: rgb(26, 54, 64);
+    position: fixed;
+    width: 100vw;
+    text-align: center; /* Center the nav items */
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block; /* Allow centering of the ul */
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+}
+
+
+/*Section*/
+section {
+    min-height:20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    color: black;
+    font-size: 25px;
+}

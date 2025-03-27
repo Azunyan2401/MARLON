@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6vh;
+    background-color: rgb(255, 140, 0, 0.5);
+    font-family: "Libre Baskerville", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  margin: 5rem;
+  transition: 0.5s;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+section {
+    min-height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+#Home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.logo-container{
+    margin-left: 10%;
+}
+
+.Intro{
+    justify-content: space-between;
+    line-height: 3rem;
+    top: 10px;
+    font-size: 18px;
+}
+
+section#Advocacies{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    line-height: 3rem;
+
+}
+
+section#storyboard{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    line-height: 3rem;
+
+}
+
+.Mission-Vision{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+.Mission-Vision p{
+    left: 0;
+    padding: 20px;
+}
+
+section#Individuals{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+#Individuals p{
+    font-weight: bold;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    width: 400px;
+    height: 400px;
+    margin: 45px;
+}
+
+.image{
+    background-color: red;
+    height:100%;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.6s;
+}
+
+.image-1{
+    background-image: url(485149762_1145443273999692_2380637907277357504_n.jpg);
+   
+}
+
+
+.image-2{
+    background-image: url(0653c26a-3fb8-4e2b-95af-ca82f3189219.jfif);
+}
+
+.image-3{
+    background-image: url(2ba8da15-00aa-4850-96e9-588257166a87.jfif);
+}
+
+footer{
+    background-color: rgb(0, 0, 255, 0.8);
+    justify-content: center;
+    display: flex;
+    min-height:30px;
+    place-items: center;
+}
+
+.footer-contents a{
+    margin: 35px;
+    justify-content: space-between;
+    color: black;
+    transition: 0.6s;
+}
+
+.footer-contents a:hover{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+a:hover{
+    color: green;
+}
